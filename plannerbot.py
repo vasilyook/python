@@ -7,7 +7,7 @@ commands_list = """
 		/del - удалить дело
 		/view - что еще осталось
 		"""
-TOKEN = "1492623618:AAGFcPyCSrfGbUjqwrW7KH-ZQjymTdNNkAY"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
